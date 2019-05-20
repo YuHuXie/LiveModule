@@ -39,4 +39,15 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'AFNetworking', '~> 2.3'
+   
+   s.dependency 'AlivcLivePusher'
+   s.dependency 'AliyunPlayer_iOS/AliyunVodPlayerSDK'
+   s.dependency 'MBProgressHUD', '~> 1.1.0'
+   s.dependency 'AFNetworking', '~> 3.0'
+   s.dependency 'SDWebImage', '~> 4.0'
+   s.dependency 'JSONModel','~> 1.7.0'
+   s.dependency 'LBXScan/LBXNative','~> 2.3'
+   s.dependency 'LBXScan/UI','~> 2.3'
 end

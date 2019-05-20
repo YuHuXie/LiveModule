@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/GTALiveModule" "${PODS_CONFIGURATION_BUILD_DIR}/JSONModel" "${PODS_CONFIGURATION_BUILD_DIR}/LBXScan" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_ROOT}/AlivcLivePusher" "${PODS_ROOT}/AliyunPlayer_iOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/GTALiveModule/GTALiveModule.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/JSONModel/JSONModel.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/LBXScan/LBXScan.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "AVFoundation" -framework "AliThirdparty" -framework "AlivcLibBeauty" -framework "AlivcLibFace" -framework "AlivcLibRtmp" -framework "AlivcLivePusher" -framework "AliyunPlayerSDK" -framework "AliyunVodPlayerSDK" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "GTALiveModule" -framework "JSONModel" -framework "LBXScan" -framework "MBProgressHUD" -framework "MediaPlayer" -framework "OpenGLES" -framework "QuartzCore" -framework "SDWebImage" -framework "VideoToolbox"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

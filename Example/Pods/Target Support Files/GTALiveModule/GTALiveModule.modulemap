@@ -1,0 +1,6 @@
+framework module GTALiveModule {
+  umbrella header "GTALiveModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

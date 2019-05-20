@@ -1,0 +1,48 @@
+{
+  "name": "GTALiveModule",
+  "version": "0.1.0",
+  "summary": "A short description of GTALiveModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuhuxie2295@sina.com/GTALiveModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuhuxie2295@sina.com": "yuhuxie2295@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/yuhuxie2295@sina.com/GTALiveModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GTALiveModule/Classes/**/*",
+  "dependencies": {
+    "AlivcLivePusher": [
+
+    ],
+    "AliyunPlayer_iOS/AliyunVodPlayerSDK": [
+
+    ],
+    "MBProgressHUD": [
+      "~> 1.1.0"
+    ],
+    "AFNetworking": [
+      "~> 3.0"
+    ],
+    "SDWebImage": [
+      "~> 4.0"
+    ],
+    "JSONModel": [
+      "~> 1.7.0"
+    ],
+    "LBXScan/LBXNative": [
+      "~> 2.3"
+    ],
+    "LBXScan/UI": [
+      "~> 2.3"
+    ]
+  }
+}
