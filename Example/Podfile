@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GTALiveModule_Tests' do
+  pod 'GTALiveModule', :path => '../'
+  
+  
+end
